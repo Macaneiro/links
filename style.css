@@ -1,0 +1,42 @@
+body{
+    background-color: blue;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+nav a{
+    margin-right: 32px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(4, 4, 71);
+    padding: 4px 4px;
+    border-radius: 8px;    
+}
+
+.download-link {
+    display: inline-block;
+    background-color: #0078ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.download-link:hover {
+    background-color: #005fcc;
+}
+
+img{
+    width: 360px;
+    height: 500px;
+    border-radius: 32px;
+}
